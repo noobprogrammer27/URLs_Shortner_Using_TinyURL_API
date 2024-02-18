@@ -50,7 +50,7 @@ public class URLShortnerUsngAPIV1 {
 			conn.setRequestProperty("Content-Type", contentType);
 			conn.setRequestProperty("Accept", "application/json");
 			conn.setRequestProperty("Authorization",
-					"Bearer " + "FhQAENoceWei8kACkIkSAIl33WbTTAtVTjQ2O1eTAlj6i94HZ58IYVoDDW1R");
+					"Bearer " + "your bearer token");
 			conn.setDoOutput(true);
 			OutputStream outputStream = conn.getOutputStream();
 			outputStream.write(obj.toString().getBytes("utf-8"));
