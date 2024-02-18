@@ -1,5 +1,4 @@
 # URLs_Shortner_Using_TinyURL_API
-Via Api we will generate short urls
 Hi All!!!
 Here i have uploaded version 1 of short urls generation using tinyUrl api. This is achieved by calling external api.
 First of all before anything, if you want to use this, you must create an account in TinyUrl website and generate a bearer token.
